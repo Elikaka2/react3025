@@ -48,7 +48,8 @@ const Item = ()=>{
 
             //let doubEl = intttt*2;
             return(
-                <>
+
+                    <div>
                     <h1>Загадка {intttt.id}</h1>
                     <h3>{intttt.description}</h3>
                     <input type="radio" id='option1' name="option" value={intttt.option1}/>
@@ -63,7 +64,8 @@ const Item = ()=>{
                     <input type="radio" id='option4' name="option" value={intttt.option4}/>
                     <label htmlFor="option4">{intttt.option4}</label>
                     <br/>
-                </>
+                    </div>
+
             )
 
         }
